@@ -170,6 +170,11 @@ function reset(){
   
 }
 
+
+
+
+
+//spaws the obnstacles
 function spawnObstacles() {
   if(frameCount % 60 === 0) {
     var obstacle = createSprite(600,165,10,40);
